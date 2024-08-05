@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>film</title>
+    <link rel="stylesheet" href="pelis.css">
+</head>
+<body>
+   <nav>
+      <input type="checkbox" id="check"
+      <label for="check" class="checkbtn">
+         <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">LatifHitam</label>
+      <ul>
+         <li><a class="active" href="index.html">home</a></li>
+         <li><a href="film.html">film</a></li>
+         <li><a href="panutan.html">panutan</a></li>
+         <li><a href="#">belum</a></li>
+      </ul>
+   </nav>
+   <section class="about">
+    <div class="main">
+        <img src="poster.png">
+        <div class="about-text">
+            <h1>Pokemon movie:</h1>
+            <h5>i choose you</h5>
+            <p>Kimi Ni kimeta!, dikenal sebagai Pokemon the Movie: I Choose You!, adalah film favorit saya ini adalah film Jepang tahun 2017. Film ini adalah reboot dari film seri Pokémon, dan film Pokémon kedua puluh keseluruhan, dirilis untuk memperingati ulang tahun ke-20 Anime ini. Ini adalah menceritakan kembali dari musim pertama anime dan menemukan kembali asal-usul perjalanan Ash (Satoshi) dan Pikachu untuk menjadi Pokémon Master. Kedua dirilis sebagai film Pokemon kedua puluh dan film pertama di seri Sun dan Moon, itu adalah remake/menceritakan kembali dari Saga Indigo League.film ini dirilis di Jepang pada tanggal 15 Juli 2017,tonton trailer nya dibawah ini.</p>
+            <a href="#" onclick="playAudio()">Play Music</a>
+            <audio id="myAudio" src="lagu.mp3"></audio>
+<script>
+function playAudio() {
+document.getElementById("myAudio").play();
+}
+</script>
+<p></p>
+<video width="550" height="360" controls>
+    <source src="trailer.mp4" type="video/mp4">
+</video>
+        </div>
+    </div>
+   </section>
+<table>
+  <thead>
+      <tr>
+          <th>pokemon the movie: i choose you</th>
+          <th>Rating Pribadi</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><img src="poster2.jpg" alt="Film 1"></td>
+          <td class="rating">4.7/5</td>
+      </tr>
+  </tbody>
+</table>
+</body>
+</html>
